@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Yantramanav:wght@400;500&display=swap');
+@import url("../css/root.css");
+
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.bg_image {
+    background: url(../image/png/Group-bg-p.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width:576px) {
+    div>a h1 {
+        font-size: 30px !important;
+    }
+}
+
+nav ul li a {
+    margin-right: 25px;
+}
+
+.fc_light_blue {
+    color: #2C49FE;
+}
+
+.fc_darkblue {
+    color: #2D3CAE;
+}
+
+.fc_dark_blue {
+    color: #01C8FF;
+}
+
+.ff_poppins {
+    font-family: poppins;
+}
+
+.ff_Yantramanav {
+    font-family: Yantramanav;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.box {
+    background: rgba(44, 73, 254, 0.74);
+    border-radius: 150px;
+    max-width: 962px;
+    padding: 28px;
+}
+
+.signup_btn {
+    background: #2C49FE;
+    border-radius: 23px;
+    border: 1px solid #2C49FE;
+    padding: 11px;
+}
+
+.get_Started_btn {
+    background: #2C49FE;
+    border-radius: 28px;
+    padding: 11px 28px;
+    border: 1px solid #2C49FE;
+}
+
+.check_box {
+    background: #ffffff;
+    border-radius: 150px;
+    padding: 16px 28px;
+    border: 1px solid #ffffff;
+}
+
+.mw_962 {
+    max-width: 962px;
+}
+
+.max_w_346 {
+    max-width: 346px;
+}
+
+.max-w708 {
+    max-width: 708px;
+}
+
+.mw_339 {
+    max-width: 339px;
+}
+
+.mw_188 {
+    max-width: 188px;
+}
+
+.mw_1044 {
+    max-width: 1044px
+}
+
+.max-w765 {
+    max-width: 765px;
+}
+
+.mw_536 {
+    max-width: 536px;
+}
+
+.mw_891 {
+    max-width: 891;
+}
+
+.mw_338 {
+    max-width: 338px;
+}
+
+.mw_20 {
+    max-width: 20px;
+}
+
+.mw_573 {
+    max-width: 573px;
+}
+
+.mw_279 {
+    max-width: 279px;
+}
+
+.mw_583 {
+    max-width: 583px;
+}
+
+.mw_574 {
+    max-width: 574px;
+}
+
+.text_gray {
+    color: #FFFFFF;
+}
+
+.bg_image_blue {
+    background: url(../image/png/Group_48095502.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.border_radius_5 {
+    border-radius: 5px;
+
+}
+
+.input_border {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.shadow_box {
+    background: #ffffff;
+    box-shadow: 2px 9px 32px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.border_right {
+    border-right: 3px solid #ffffff;
+}
+
+.small_box {
+    background: #2C49FE;
+    border-radius: 5px;
+    padding: 20px;
+    border: 2px solid #2C49FE;
+}
+
+.info_box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #2C49FE;
+}
+
+.circle {
+    left: 50%;
+    transform: translateX(-50%);
+    top: -30px;
+}
+
+.small_circle {
+    background-color: white;
+    border: 1px solid #2C49FE;
+    border-radius: 50px;
+    padding: 23px;
+    width: 79px;
+}
+
+.mw_339 {
+    max-width: 339px;
+}
+
+.textarea {
+    resize: none;
+}
+
+.fc_scle {
+    color: #bfc5ed;
+}
+
+.fs_36 {
+    font-size: 36px;
+}
+
+.blue-btn {
+    background: #2C49FE;
+    border-radius: 23px;
+    padding: 11px 28px;
+    border: 1px solid #2C49FE;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.fc_black {
+    color: black;
+}
+
+.bg_black {
+    background-color: black;
+}
+
+.max_width {
+    max-width: 346px;
+}
+
+.mw_315 {
+    max-width: 315px;
+}
+
+.height_173 {
+    height: 173px;
+}
+
+.show {
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 60, 174, 0.53);
+    color: #ffffff;
+}
+
+.mw-4ch {
+    max-width: 4ch;
+}
+
+.gap-15 {
+    gap: 15px;
+}
+
+@media(max-width:576px) {
+    div>a h1 {
+        font-size: 30px !important;
+    }
+
+    .w_20 {
+        width: 50px;
+    }
+
+
+
+    .text-overflow {
+        text-overflow: ellipsis;
+    }
+
+    nav ul li a {
+        margin-right: 0%;
+    }
+}
+
+.line {
+    position: relative;
+    display: inline-block;
+}
+
+.line::after {
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 8px;
+    background: #01C8FF;
+    bottom: -9px;
+    right: 0%;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background-color: blue;
+    bottom: -9px;
+    left: 0;
+}
+
+@media (max-width:768px) {
+    .box {
+        border-radius: 0 !important;
+    }
+
+
+}
+
+@media (max-width:992px) {
+    .border_right {
+        border: 0;
+    }
+        .check_box {
+          
+            padding: 12px;
+         
+        }
+}
