@@ -11,8 +11,6 @@
     --fs-5xl: 36px;
     --fs-6xl: 48px;
     --fs-7xl: 64px;
-
-
 }
 
 .fs_12 {
@@ -71,7 +69,6 @@
 
 @media(max-width:576px) {
     :root {
-
         --fs-2xl: 15px;
         --fs-3xl: 18px;
         --fs-4xl: 22px;

@@ -15,12 +15,6 @@
     background-size: cover;
 }
 
-@media (max-width:576px) {
-    div>a h1 {
-        font-size: 30px !important;
-    }
-}
-
 nav ul li a {
     margin-right: 25px;
 }
@@ -66,6 +60,36 @@ nav ul li a {
     border-radius: 150px;
     max-width: 962px;
     padding: 28px;
+}
+
+.box_2 {
+    background-color: rgba(44, 73, 254, 0.74);
+    border-radius: 0px;
+    padding: 25px;
+}
+
+/* .box */
+.right_line {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 80%;
+    min-height: 100px;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%);
+}
+
+.bottom_right {
+    content: '';
+    position: absolute;
+    max-width: 400px;
+    width: 75%;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%);
 }
 
 .signup_btn {
@@ -271,15 +295,13 @@ nav ul li a {
 }
 
 @media(max-width:576px) {
-    div>a h1 {
-        font-size: 30px !important;
-    }
-
     .w_20 {
         width: 50px;
     }
 
-
+    .border_right {
+        border: 0;
+    }
 
     .text-overflow {
         text-overflow: ellipsis;
@@ -319,17 +341,10 @@ nav ul li a {
     .box {
         border-radius: 0 !important;
     }
-
-
 }
 
 @media (max-width:992px) {
     .border_right {
         border: 0;
     }
-        .check_box {
-          
-            padding: 12px;
-         
-        }
 }
